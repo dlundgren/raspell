@@ -26,12 +26,13 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.homepage = %q{http://github.com/dmarkow/raspell}
   s.rdoc_options = ["--charset=UTF-8"]
-  s.require_paths = ["lib"]
+  s.require_paths = ["lib", "ext"]
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{An interface binding for the Aspell spelling checker.}
   s.test_files = [
     "test/simple_test.rb"
   ]
+  s.extensions = ["ext/extconf.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
