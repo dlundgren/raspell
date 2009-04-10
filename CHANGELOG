@@ -1,3 +1,5 @@
+v1.2.1. Fix some gemspec issues
+
 v1.2. Support for Ruby 1.9.1 / Update test to match corrections given by aspell 0.60.6
 
 v1.1. Would be nice if it actually compiled again.
